@@ -1,0 +1,11 @@
+- Prejdite si Lekcia5/du_comprehensions.py
+- v tomto adresari (Lekcia6/DU) si prejdite zadania + doplnte testy (asserty)
+- vygenerujte pripadne dalsie testy, ake vam napadnu
+- zaroven ak funkcia nema osetrene vstupy/vystupy.. osetrite ich
+  - vsetko ma prijimat iba vstupy ake su zapisane v definiciach a vracat iba take, ake su zapisane v definicii
+  - Dict[str, int]   znamena, ze vraciam slovnik, kde kluce su 'str', a hodnoty su 'int'  (key, value)
+  - List[int]   znamena, list integerov
+
+
+
++ Samozrejme si oddychnite, poslite feedback a v bode kedy budete mat otazky/nejaku ulohu hotovu.. poslite na review
