@@ -23,7 +23,9 @@ def word_count(text: list) -> Dict[str, int]:
             word_freq[word] = count + 1
         else:
             word_freq[word] = 1
-    print(word_freq)
+#    print(word_freq)
+#    printy v ramci funkcie nepozivaj.. pripadne si ich vzdy nakonci
+#    zakomentuj
     return word_freq
 
 

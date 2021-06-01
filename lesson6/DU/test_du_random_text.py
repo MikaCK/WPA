@@ -1,4 +1,5 @@
 import du_random_text
+import string
 from unittest import TestCase
 
 
@@ -8,6 +9,11 @@ class TestRandomText(TestCase):
         print(len(result))
         print(result)
         self.assertEqual(len(result), 400)
+        # tu by sa dalo este eventualne doplnit kontrola kazdeho znaku, ci je
+        # z rozsahu aky potrebujeme, ak by niekto prerabal funkciu
+        # nech ho upozorni, ze tam dal nepovoleny znak
+        # for znak in result:
+        #     self.assertIn(znak, f"{string.ascii_letters} 1234567890")
 
     def test_string_dlzka(self):
         self.assertRaises(
@@ -43,3 +49,7 @@ class TestDigitsDivisibleBy2(TestCase):
 
 # doplnit asserty, skontrolovat vysledky
 # a doplnit dalsie testy, ktore vam napadnu
+
+
+# Zase ak ta zaujma output, pri testovanie je to ok, v 'ostrej' prevadzke sa
+# snazime printy nepouzivat, zbytocne to spamuje
